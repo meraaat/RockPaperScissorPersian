@@ -35,14 +35,14 @@ try {
     if (dataSet[myTurn][computerTurn] === 1) {
       myScore++;
       message = "you win this round, ";
-      message += `my score : ${myScore} , computer score : ${computerScore}`;
+      message += `your score : ${myScore} , computer score : ${computerScore}`;
     } else if (dataSet[myTurn][computerTurn] === -1) {
       computerScore++;
       message = "computer wins this round, ";
-      message += `my score : ${myScore} , computer score : ${computerScore}`;
+      message += `your score : ${myScore} , computer score : ${computerScore}`;
     } else {
       message = "you and computer was equal, nothing happened , ";
-      message += `my score : ${myScore} , computer score : ${computerScore}`;
+      message += `your score : ${myScore} , computer score : ${computerScore}`;
     }
     message += " turn " + counter;
     let p = document.createElement("p");
