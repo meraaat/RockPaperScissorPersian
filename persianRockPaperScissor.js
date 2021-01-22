@@ -25,7 +25,7 @@ try {
         myTurn = i;
       }
     }
-
+let color = 'black'
     //give computer turn
     let computerTurn = Math.floor(Math.random() * pattern.length);
 
