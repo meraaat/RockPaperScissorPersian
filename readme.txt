@@ -1,1 +1,1 @@
-run index.html and play  persian rock scissor paper :D
+run index.html and play persian rock scissor paper :D

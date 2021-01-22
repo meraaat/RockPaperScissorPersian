@@ -45,11 +45,13 @@ try {
       message += `my score : ${myScore} , computer score : ${computerScore}`;
     }
     message += " turn " + counter;
-    console.log(message);
+    let p = document.createElement("p");
+    p.innerText = message;
+    document.body.appendChild(p);
     counter++;
   }
 } catch (e) {
   if (e) {
-    console.log("game ended!");
+    alert("game ended!");
   }
 }
