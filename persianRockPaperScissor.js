@@ -44,11 +44,10 @@ try {
       message = "you and computer was equal, nothing happened , ";
       message += `your score : ${myScore} , computer score : ${computerScore}`;
     }
-    message += " turn " + counter;
+    message += " turn " + ++counter;
     let p = document.createElement("p");
     p.innerText = message;
     document.body.appendChild(p);
-    counter++;
   }
 } catch (e) {
   if (e) {
