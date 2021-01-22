@@ -10,7 +10,7 @@ try {
     let input = prompt("input سنگ کاغذ قیچی");
     if (!input) term = false;
     //pattern
-    let pattern = ["قیچی", "سنگ", "کاغذ"];
+    let pattern = ["قیچی", "سنگ", "کاغذ"]; // good pattern
 
     //data set
     let dataSet = [
