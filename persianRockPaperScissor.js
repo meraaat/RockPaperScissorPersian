@@ -2,6 +2,7 @@
 let myScore = 0;
 let computerScore = 0;
 let counter = 0;
+let term;
 
 try {
   while (true) {
